@@ -1,1 +1,0 @@
-ALTER TABLE IF EXISTS heart_disease DROP COLUMN id;
