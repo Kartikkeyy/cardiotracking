@@ -11,7 +11,6 @@ from pinecone import Pinecone
 load_dotenv()
 
 def test_retrieval(question: str):
-    """Test document retrieval and show what's being fetched"""
     
     # Setup
     pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
