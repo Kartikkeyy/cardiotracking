@@ -1,8 +1,8 @@
-# 🏥 AI Medical Assistant Chatbot — RAG-based Application   
+#  AI Medical Assistant Chatbot — RAG-based Application   
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 An intelligent **Medical Domain Chatbot** built using **Retrieval-Augmented Generation (RAG)** technology. This application enables users to upload medical documents (textbooks, research papers, clinical reports) and receive accurate, context-aware answers to their medical queries.
 
@@ -10,7 +10,7 @@ The system leverages advanced natural language processing to retrieve relevant i
 
 ---
 
-## 💡 What is RAG?
+##  What is RAG?
 
 **RAG (Retrieval-Augmented Generation)** is an AI architecture that combines information retrieval with language generation. Instead of relying solely on the model's training data, RAG:
 
@@ -22,7 +22,7 @@ This approach is particularly valuable in specialized domains like healthcare wh
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 User Query
@@ -45,20 +45,20 @@ PDF Upload → Text Extraction → Chunking → Embedding → Vector Storage (Pi
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- **📄 Document Upload**: Support for multiple medical PDF documents
-- **🔍 Intelligent Retrieval**: Semantic search across uploaded documents
-- **🤖 Accurate Responses**: Context-aware answers using state-of-the-art LLM
-- **⚡ Fast Processing**: Optimized vector search with Pinecone
-- **🔒 Privacy Focused**: Your documents stay in your vector database
-- **📊 Source Tracking**: Responses include references to source documents
-- **💬 Chat Interface**: User-friendly Streamlit frontend
-- **🌐 REST API**: FastAPI backend for easy integration
+- ** Document Upload**: Support for multiple medical PDF documents
+- ** Intelligent Retrieval**: Semantic search across uploaded documents
+- ** Accurate Responses**: Context-aware answers using state-of-the-art LLM
+- ** Fast Processing**: Optimized vector search with Pinecone
+- ** Privacy Focused**: Your documents stay in your vector database
+- ** Source Tracking**: Responses include references to source documents
+- ** Chat Interface**: User-friendly Streamlit frontend
+- ** REST API**: FastAPI backend for easy integration
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component       | Technology                          |
 | --------------- | ----------------------------------- |
@@ -73,7 +73,7 @@ PDF Upload → Text Extraction → Chunking → Embedding → Vector Storage (Pi
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Upload Documents
 ```http
@@ -95,7 +95,7 @@ Returns: AI-generated answer with source references
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 medical-assistant/
@@ -135,7 +135,7 @@ medical-assistant/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -238,7 +238,7 @@ PINECONE_INDEX_NAME=medicalindex1
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 ### Deploy to Render
 
@@ -252,7 +252,7 @@ PINECONE_INDEX_NAME=medicalindex1
 
 ---
 
-## 🎯 Usage
+##  Usage
 
 1. **Upload Documents**: Use the web interface to upload medical PDFs
 2. **Wait for Processing**: Documents are chunked, embedded, and stored
@@ -268,7 +268,7 @@ PINECONE_INDEX_NAME=medicalindex1
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 1. **Document Upload**: PDFs are uploaded via the web interface
 2. **Text Extraction**: PyPDF extracts text from each page
@@ -280,30 +280,5 @@ PINECONE_INDEX_NAME=medicalindex1
 8. **Generation**: Retrieved context is passed to LLaMA 3.3 70B for answer generation
 9. **Response**: User receives answer with source document references
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## ⚠️ Disclaimer
-
-This application is for educational and informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of qualified health providers with any questions regarding medical conditions.
-
----
-
-## 📬 Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
 
 **Built with ❤️ using LangChain, FastAPI, and Streamlit**
