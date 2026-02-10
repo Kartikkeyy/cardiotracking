@@ -209,7 +209,7 @@ streamlit run app.py
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
